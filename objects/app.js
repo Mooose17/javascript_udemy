@@ -32,8 +32,7 @@ const comments = [
         text:"Lol",
         upvotes:201,
         gilded:false
-    }
-    {
+    },{
         username:"Zach",
         text:"NOT FUNNY GO HOME",
         upvotes:31,
