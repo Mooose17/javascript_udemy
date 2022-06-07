@@ -41,7 +41,21 @@ if(dayOfWeek === "Monday"){
 } else{
     console.log("Day Of Week not seen.")
 }
+//another example//
 
+function getColor(phrase){
+
+    if(phrase === "stop"){
+        console.log("red")
+    } else if (phrase === "slow"){
+        console.log("yellow")
+    } else if (phrase === "go"){
+        console.log("green")
+    } else{
+        console.log("purple")
+    }
+
+}
 // Else is a catch all //
 //----------------------------//
 
@@ -54,4 +68,11 @@ else if - "If the previous "if" doesnt return true - Do this"
 if - "If X returns true - Do this"
 else if - "If the previous "if" doesnt return true - Do this"
 else - "If nothing is returning true. Do this"
+*/
+
+//Logigal Operators//
+/*
+&& - If X AND Y = True - Return this.
+|| - If X OR y = True - Return this.
+! - If X does NOT = True - Return This.
 */
