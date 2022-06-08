@@ -13,9 +13,24 @@ const seatingChart = [
 }
 */
 // or i could use a for of loop!!!
-
+/*
 for(let rows of seatingChart){
     for(let students of rows){
         console.log(students);
     }
 }
+*/
+// For in loops
+
+let album = {
+    name:"nurture",
+    artist:"Porter Robinson",
+    genre:"Dance",
+    year:"2021",
+    gay:true
+}
+
+for(const albumData in album){
+    console.log(`This is the ${albumData} which is also ${album[albumData]}`)
+};
+
