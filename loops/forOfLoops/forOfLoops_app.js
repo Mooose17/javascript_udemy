@@ -34,3 +34,13 @@ for(const albumData in album){
     console.log(`This is the ${albumData} which is also ${album[albumData]}`)
 };
 
+function isPartyViable(guests) {
+    let total = 0;  //used to add up guest paidforticket amount
+    for (let guest of guests){
+      total = guest.paidForTicket + total // loops over all guests in [guests]
+    }
+    if (total >= 100 & guests.length > 5){
+      return true;
+    }
+    return false;
+  }
